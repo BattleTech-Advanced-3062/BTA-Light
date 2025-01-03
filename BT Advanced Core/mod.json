@@ -104,7 +104,8 @@
 		"WarTechIIC",
 		"MechSprayPaint",
 		"SearchAndRescue",
-		"JwNetOverride"
+		"JwNetOverride",
+		"JwTweaks"
 	],
 	"OptionallyDependsOn": [
 		"FlashpointEnabler"
