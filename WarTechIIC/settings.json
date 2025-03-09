@@ -48,9 +48,14 @@
 		"ClanWolfInExile",
 		"Wolfs_Dragoons"
 	],
-	"dailyAttackChance": 0.1,
-	"dailyRaidChance": 0.1,
-	"distanceFactor": 85,
+	"maxAttackRaidDistance": 300,
+	"dailyAttackChance": 0.15,
+	"dailyRaidChance": 0.15,
+	"dailyExtConChanceIfNoneAvailable": 0.75,
+	"dailyExtConChanceIfSomeAvailable": 0.75,
+	"maxAvailableExtendedContracts": 3,
+	"maxExtendedContractDistance": 150,
+	"distanceFactor": 75,
 	"aggression": {
 		"ClanNovaCat": 1.5,
 		"Ives": 2.0
@@ -153,7 +158,6 @@
 	},
 	"raidStrengthMultiplier": 0.75,
 	"minReputationToHelpAttack": "DISLIKED",
-	"minReputationToHelpRaid": "DISLIKED",
 	"wontHirePlayer": [
 		"ClanWolf",
 		"ClanJadeFalcon",
@@ -161,14 +165,16 @@
 		"ClanDiamondShark",
 		"AuriganDirectorate"
 	],
-	"daysBetweenMissions": 3,
+	"neverBlockContractsOfferedBy": [
+		"SelfEmployed"
+	],
 	"combatForceLossMin": 2,
 	"combatForceLossMax": 5,
 	"attackBonusPerHalfSkull": 30000,
 	"attackBonusSalvage": 0,
 	"raidBonusPerHalfSkull": 5000,
 	"raidBonusSalvage": 1,
-	"raidResultDuration": 360,
+	"raidResultDuration": 720,
 	"factionActivityTags": {
 		"AuriganPirates": [
 			"planet_other_pirate",
