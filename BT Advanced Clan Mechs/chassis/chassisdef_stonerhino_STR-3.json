@@ -20,7 +20,7 @@
 	},
 	"MovementCapDefID": "movedef_stonerhino_300",
 	"PathingCapDefID": "pathingdef_assault",
-	"HardpointDataDefID": "hardpointdatadef_stonerhino",
+	"HardpointDataDefID": "hardpointdatadef_mwostonerhino",
 	"PrefabIdentifier": "chrprfmech_mwostonerhinobase-001",
 	"PrefabBase": "mwostonerhino",
 	"Tonnage": 100,
