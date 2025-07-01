@@ -10,9 +10,7 @@
 	"DLL": "IRTweaks.dll",
 	"DependsOn": [
 		"IRBTModUtils",
-		"Custom Ammo Categories"
-	],
-	"OptionallyDependsOn": [
+		"Custom Ammo Categories",
 		"CBTBehaviorsEnhanced"
 	],
 	"Settings": {
@@ -28,6 +26,7 @@
 			"BulkScrapping": false,
 			"CombatLog": false,
 			"CTDestructInjuryFix": true,
+			"CalledShotTweaks": true,
 			"DamageReductionInCombatHud": true,
 			"DifficultyModsFromStats": false,
 			"DisableCampaign": true,
@@ -37,6 +36,7 @@
 			"DisableFiringStat": true,
 			"DisableLowFundsNotification": true,
 			"DisableMPHashCalculation": true,
+			"EventRequirementsScopeFix": true,
 			"ExplodingBuildingFix": true,
 			"ExtendedStats": false,
 			"FactionReputationFixes": true,
@@ -338,14 +338,14 @@
 			},
 			"OnWeaponFireOpts": {
 				"SelfKnockdownCheckStatName": "SelfknockdownCheck_OnFire",
-				"IgnoreSelfKnockdownTag": "big_chungus",
+				"IgnoreSelfKnockdownTag": "Ignore_SelfKnockdown",
 				"SelfKnockdownPilotingFactor": 0.01,
 				"SelfKnockdownTonnageFactor": 0.01,
 				"SelfKnockdownTonnageBonusThreshold": 100.0,
 				"SelfKnockdownTonnageBonusFactor": 0.05,
 				"SelfKnockdownBracedFactor": 100.0,
 				"SelfInstabilityStatName": "SelfInstability_OnFire",
-				"IgnoreSelfInstabilityTag": "big_chungus",
+				"IgnoreSelfInstabilityTag": "Ignore_SelfInstability",
 				"SelfInstabilityPilotingFactor": 1.5,
 				"SelfInstabilityTonnageFactor": 0.25,
 				"SelfInstabilityTonnageBonusThreshold": 100.0,

@@ -50,7 +50,7 @@
 			"Actions": [
 				{
 					"Type": "System_ShowRewards",
-					"value": "BTA_OverlordVictory",
+					"value": "BTA_UnionVictory",
 					"valueConstant": null,
 					"additionalValues": null
 				}
@@ -62,7 +62,7 @@
 	],
 	"OnContractFailureResults": [],
 	"encounterPlayStyle": "SinglePlayer",
-	"maxNumberOfPlayerUnits": 4,
+	"maxNumberOfPlayerUnits": 50,
 	"lanceMinTonnage": -1,
 	"lanceMaxTonnage": -1,
 	"mechMinTonnages": [
@@ -97,7 +97,7 @@
 			]
 		}
 	],
-	"objectiveList": [		
+	"objectiveList": [
 		{
 			"objective": {
 				"EncounterObjectGuid": "504a1169-8858-4f3d-be89-48eb39f54e4d"

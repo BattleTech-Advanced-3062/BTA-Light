@@ -1,6 +1,4 @@
 {
-	"debug": true,
-	"trace": true,
 	"setActiveFactionsForAllSystems": false,
 	"ignoreFactions": [
 		"SolarisVII",
@@ -51,9 +49,9 @@
 	"maxAttackRaidDistance": 300,
 	"dailyAttackChance": 0.15,
 	"dailyRaidChance": 0.15,
-	"dailyExtConChanceIfNoneAvailable": 0.75,
-	"dailyExtConChanceIfSomeAvailable": 0.75,
-	"maxAvailableExtendedContracts": 3,
+	"dailyExtConChanceIfNoneAvailable": 0,
+	"dailyExtConChanceIfSomeAvailable": 0,
+	"maxAvailableExtendedContracts": 0,
 	"maxExtendedContractDistance": 150,
 	"distanceFactor": 75,
 	"aggression": {
@@ -102,35 +100,9 @@
 		"planet_factory": 2
 	},
 	"limitTargetsToFactionEnemies": true,
-	"attackMarker": {
-		"useHmAnimation": true,
-		"flashpointPrefix": "",
-		"swapColour": true,
-		"keepAlpha": true,
-		"useOnlyInner": true,
-		"autoDetectContracts": false,
-		"useContractColourOverride": false,
-		"innerCircle": {
-			"Colour": "#8904B1"
-		}
-	},
-	"raidMarker": {
-		"useHmAnimation": true,
-		"flashpointPrefix": "",
-		"swapColour": true,
-		"keepAlpha": true,
-		"useOnlyInner": true,
-		"autoDetectContracts": false,
-		"useContractColourOverride": false,
-		"innerCircle": {
-			"Colour": "#1904B1"
-		}
-	},
-	"minCountdown": 30,
-	"maxCountdown": 45,
 	"defaultAttackStrength": 20,
 	"defaultDefenseStrength": 15,
-	"strengthVariation": 10,
+	"strengthVariation": 6,
 	"attackStrength": {
 		"ClanWolf": 22,
 		"ClanJadeFalcon": 23,
