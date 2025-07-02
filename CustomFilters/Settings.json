@@ -82,9 +82,7 @@
 				"ContainsAny": [
 					"lance_bracket_skirmish"
 				],
-				"NotContainsAny": [
-					"lance_type_custom"
-				]
+				"NotContainsAny": null
 			}
 		},
 		"SkirmishOptionsPresets": [],

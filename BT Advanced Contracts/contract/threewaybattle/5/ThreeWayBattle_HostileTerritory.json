@@ -38,7 +38,7 @@
 	"OnContractSuccessResults": [],
 	"OnContractFailureResults": [],
 	"encounterPlayStyle": "SinglePlayer",
-	"maxNumberOfPlayerUnits": 4,
+	"maxNumberOfPlayerUnits": 50,
 	"lanceMinTonnage": -1,
 	"lanceMaxTonnage": -1,
 	"mechMinTonnages": [
@@ -5789,6 +5789,6 @@
 			}
 		]
 	},
-	"contractType": "INVALID_UNSET",
+	"contractType": "ThreeWayBattle",
 	"contractTypeID": "ThreeWayBattle"
 }

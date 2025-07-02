@@ -240,6 +240,11 @@
 				"x": 1.1,
 				"y": 1.1,
 				"z": 1.1
+			},
+			"manticore": {
+				"x": 0.65,
+				"y": 0.65,
+				"z": 0.65
 			}
 		},
 		"turretSizePrefabMultipliers": {},
@@ -255,6 +260,10 @@
 		"MaxVehicleRandomPilots": 4,
 		"ShowVehicleBays": true,
 		"AllowVehiclesEdit": false,
+		"VehcilesPartialEditable": false,
+		"VehicleComponentOneAllowed": "VehicleLimited",
+		"VehicleComponentForbiddenTag": "VehicleForbidden",
+		"VehicleComponentCategoryTagPrefix": "VehicleComponentFamily-",
 		"MechBaySwitchIconMech": "mech",
 		"MechBaySwitchIconVehicle": "vehicle",
 		"MechBaySwitchIconUp": "weapon_up",
@@ -264,10 +273,13 @@
 		"CountContractMaxUnits4AsUnlimited": true,
 		"CanPilotVehicleProbability": 0.5,
 		"CanPilotAlsoMechProbability": 0.0,
+		"GenerateExtraPilotingClassesForRonin": false,
 		"SquadStructureIcon": "ba_structure",
 		"SquadArmorOutlineIcon": "ba_armor_outline",
 		"SquadArmorIcon": "ba_armor",
-		"squadForcedTags": ["battle_armor_bays"],
+		"squadForcedTags": [
+			"battle_armor_bays"
+		],
 		"LancesIcons": [
 			"one",
 			"two",
@@ -277,6 +289,9 @@
 		"ShowPassiveAbilitiesIcon": "passive-ab",
 		"HideActiveAbilitiesIcon": "joystick",
 		"HidePassiveAbilitiesIcon": "passive-ab",
+		"globalGameRepresenationAudioEventsSupress": [
+			"hatchet_latch"
+		],
 		"PlayerControlConvoyTag": "convoy_player_control",
 		"ManualDeployForbidContractTypes": [
 			"Blackout",
@@ -298,10 +313,20 @@
 				"y": 0.9,
 				"z": 0.9
 			},
+			"331lynx": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
 			"331mercury": {
 				"x": 0.75,
 				"y": 0.75,
 				"z": 0.75
+			},
+			"331mercurylight": {
+				"x": 0.65,
+				"y": 0.65,
+				"z": 0.65
 			},
 			"331pillager": {
 				"x": 1.15,
@@ -323,6 +348,11 @@
 				"y": 0.85,
 				"z": 0.85
 			},
+			"331talon": {
+				"x": 0.85,
+				"y": 0.85,
+				"z": 0.85
+			},
 			"anubis": {
 				"x": 0.75,
 				"y": 0.75,
@@ -334,9 +364,9 @@
 				"z": 0.9
 			},
 			"archangel": {
-				"x": 1.05,
-				"y": 1.05,
-				"z": 1.05
+				"x": 0.975,
+				"y": 0.975,
+				"z": 0.975
 			},
 			"argus": {
 				"x": 0.95,
@@ -348,25 +378,50 @@
 				"y": 0.9,
 				"z": 0.9
 			},
+			"atlasiv": {
+				"x": 1.1,
+				"y": 1.1,
+				"z": 1.1
+			},
 			"baboon": {
 				"x": 0.6,
 				"y": 0.6,
 				"z": 0.6
+			},
+			"balar": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
 			},
 			"bane": {
 				"x": 1,
 				"y": 1,
 				"z": 1
 			},
+			"blackbeard": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
 			"blitzkrieg": {
 				"x": 0.95,
 				"y": 0.95,
 				"z": 0.95
 			},
+			"bowman": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
 			"brigand": {
 				"x": 0.75,
 				"y": 0.75,
 				"z": 0.75
+			},
+			"canis": {
+				"x": 0.925,
+				"y": 0.925,
+				"z": 0.925
 			},
 			"carronade": {
 				"x": 0.8,
@@ -453,6 +508,21 @@
 				"y": 1.1,
 				"z": 1.1
 			},
+			"cuslagmaiden": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
+			"cuverfolger": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
+			"cuvolkh": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
 			"cyclone": {
 				"x": 0.95,
 				"y": 0.95,
@@ -464,9 +534,9 @@
 				"z": 0.85
 			},
 			"dasher": {
-				"x": 0.8,
-				"y": 0.8,
-				"z": 0.8
+				"x": 0.75,
+				"y": 0.75,
+				"z": 0.75
 			},
 			"darkcrow": {
 				"x": 0.8,
@@ -478,6 +548,16 @@
 				"y": 0.8,
 				"z": 0.8
 			},
+			"diomede": {
+				"x": 1.05,
+				"y": 1.05,
+				"z": 1.05
+			},
+			"duangung": {
+				"x": 0.6,
+				"y": 0.6,
+				"z": 0.6
+			},
 			"emperor": {
 				"x": 1.08,
 				"y": 1.08,
@@ -487,6 +567,11 @@
 				"x": 0.9,
 				"y": 0.9,
 				"z": 0.9
+			},
+			"eris": {
+				"x": 0.85,
+				"y": 0.85,
+				"z": 0.85
 			},
 			"ettin": {
 				"x": 1.05,
@@ -508,6 +593,11 @@
 				"y": 0.6,
 				"z": 0.6
 			},
+			"firebeev2": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
 			"firefly": {
 				"x": 0.8,
 				"y": 0.8,
@@ -517,6 +607,11 @@
 				"x": 0.95,
 				"y": 0.95,
 				"z": 0.95
+			},
+			"foxfire": {
+				"x": 0.75,
+				"y": 0.75,
+				"z": 0.75
 			},
 			"freedom": {
 				"x": 0.875,
@@ -532,6 +627,16 @@
 				"x": 0.8,
 				"y": 0.8,
 				"z": 0.8
+			},
+			"genericlight4": {
+				"x": 0.6,
+				"y": 0.6,
+				"z": 0.6
+			},
+			"genericsh2": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
 			},
 			"genericsh3": {
 				"x": 0.95,
@@ -563,6 +668,21 @@
 				"y": 0.9,
 				"z": 0.9
 			},
+			"grizzly": {
+				"x": 0.875,
+				"y": 0.875,
+				"z": 0.875
+			},
+			"groovey": {
+				"x": 1.05,
+				"y": 1.05,
+				"z": 1.05
+			},
+			"gspider": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
 			"gun": {
 				"x": 0.6,
 				"y": 0.6,
@@ -578,10 +698,15 @@
 				"y": 1.05,
 				"z": 1.05
 			},
+			"gurkha": {
+				"x": 0.8,
+				"y": 0.8,
+				"z": 0.8
+			},
 			"hammerhead": {
-				"x": 0.9,
-				"y": 0.9,
-				"z": 0.9
+				"x": 0.8,
+				"y": 0.8,
+				"z": 0.8
 			},
 			"hazard": {
 				"x": 0.85,
@@ -593,6 +718,16 @@
 				"y": 0.9,
 				"z": 0.9
 			},
+			"hel": {
+				"x": 0.85,
+				"y": 0.85,
+				"z": 0.85
+			},
+			"hellspawn": {
+				"x": 0.95,
+				"y": 0.95,
+				"z": 0.95
+			},
 			"hermes": {
 				"x": 0.8,
 				"y": 0.8,
@@ -602,6 +737,11 @@
 				"x": 0.95,
 				"y": 0.95,
 				"z": 0.95
+			},
+			"huronwarrior": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
 			},
 			"hussar": {
 				"x": 0.85,
@@ -673,6 +813,11 @@
 				"y": 0.9,
 				"z": 0.9
 			},
+			"ionzeus": {
+				"x": 0.925,
+				"y": 0.925,
+				"z": 0.925
+			},
 			"ironcheetah": {
 				"x": 1.085,
 				"y": 1.085,
@@ -682,6 +827,11 @@
 				"x": 0.8,
 				"y": 0.8,
 				"z": 0.8
+			},
+			"jinggau": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
 			},
 			"juggernaut": {
 				"x": 1.05,
@@ -693,6 +843,21 @@
 				"y": 1.05,
 				"z": 1.05
 			},
+			"komodo": {
+				"x": 0.875,
+				"y": 0.875,
+				"z": 0.875
+			},
+			"kyudo": {
+				"x": 0.825,
+				"y": 0.825,
+				"z": 0.825
+			},
+			"lament": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
 			"legacy": {
 				"x": 1,
 				"y": 1,
@@ -702,6 +867,11 @@
 				"x": 1.15,
 				"y": 1.15,
 				"z": 1.15
+			},
+			"leliagrotera": {
+				"x": 0.775,
+				"y": 0.775,
+				"z": 0.775
 			},
 			"lelikoschei": {
 				"x": 0.95,
@@ -718,15 +888,20 @@
 				"y": 1.025,
 				"z": 1.025
 			},
+			"ltmackie": {
+				"x": 1.075,
+				"y": 1.075,
+				"z": 1.075
+			},
 			"lynx": {
 				"x": 0.9,
 				"y": 0.9,
 				"z": 0.9
 			},
 			"malak": {
-				"x": 0.85,
-				"y": 0.85,
-				"z": 0.85
+				"x": 0.8,
+				"y": 0.8,
+				"z": 0.8
 			},
 			"mantis": {
 				"x": 0.75,
@@ -748,6 +923,11 @@
 				"y": 0.9,
 				"z": 0.9
 			},
+			"mercury": {
+				"x": 0.65,
+				"y": 0.65,
+				"z": 0.65
+			},
 			"merlin": {
 				"x": 0.95,
 				"y": 0.95,
@@ -758,15 +938,25 @@
 				"y": 1.05,
 				"z": 1.05
 			},
+			"ml22v2": {
+				"x": 0.95,
+				"y": 0.95,
+				"z": 0.95
+			},
 			"monster": {
-				"x": 1.05,
-				"y": 1.05,
-				"z": 1.05
+				"x": 1.25,
+				"y": 1.25,
+				"z": 1.25
 			},
 			"mushu": {
 				"x": 0.95,
 				"y": 0.95,
 				"z": 0.95
+			},
+			"mwostonerhino": {
+				"x": 1.1,
+				"y": 1.1,
+				"z": 1.1
 			},
 			"naginata": {
 				"x": 0.95,
@@ -777,6 +967,11 @@
 				"x": 0.8,
 				"y": 0.8,
 				"z": 0.8
+			},
+			"nighthawk": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
 			},
 			"omega": {
 				"x": 0.9,
@@ -829,9 +1024,9 @@
 				"z": 1.15
 			},
 			"piranha": {
-				"x": 0.85,
-				"y": 0.85,
-				"z": 0.85
+				"x": 0.75,
+				"y": 0.75,
+				"z": 0.75
 			},
 			"prometheus": {
 				"x": 0.9,
@@ -868,6 +1063,11 @@
 				"y": 0.8,
 				"z": 0.8
 			},
+			"shayuredux": {
+				"x": 0.8,
+				"y": 0.8,
+				"z": 0.8
+			},
 			"septicemia": {
 				"x": 0.85,
 				"y": 0.85,
@@ -883,6 +1083,11 @@
 				"y": 0.95,
 				"z": 0.95
 			},
+			"shogun": {
+				"x": 1.025,
+				"y": 1.025,
+				"z": 1.025
+			},
 			"shootist": {
 				"x": 0.95,
 				"y": 0.95,
@@ -897,6 +1102,21 @@
 				"x": 1.05,
 				"y": 1.05,
 				"z": 1.05
+			},
+			"sling": {
+				"x": 0.65,
+				"y": 0.65,
+				"z": 0.65
+			},
+			"slowpoke": {
+				"x": 0.8,
+				"y": 0.8,
+				"z": 0.8
+			},
+			"sneedrfl": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
 			},
 			"spector": {
 				"x": 0.825,
@@ -923,10 +1143,20 @@
 				"y": 0.7,
 				"z": 0.7
 			},
+			"strikermech": {
+				"x": 1.15,
+				"y": 1.025,
+				"z": 1.025
+			},
 			"swd": {
 				"x": 0.75,
 				"y": 0.75,
 				"z": 0.75
+			},
+			"t74mackie": {
+				"x": 1.15,
+				"y": 1.15,
+				"z": 1.15
 			},
 			"talon": {
 				"x": 0.85,
@@ -968,6 +1198,16 @@
 				"y": 0.9,
 				"z": 0.9
 			},
+			"transient": {
+				"x": 0.925,
+				"y": 0.925,
+				"z": 0.925
+			},
+			"uziel": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
 			"valiant": {
 				"x": 0.85,
 				"y": 0.85,
@@ -983,10 +1223,20 @@
 				"y": 1,
 				"z": 1
 			},
+			"visionquest": {
+				"x": 0.9,
+				"y": 0.9,
+				"z": 0.9
+			},
 			"vonrohrs": {
 				"x": 1.05,
 				"y": 1.05,
 				"z": 1.05
+			},
+			"vossieostscout": {
+				"x": 0.85,
+				"y": 0.85,
+				"z": 0.85
 			},
 			"wasplegacy": {
 				"x": 0.7,
@@ -1002,6 +1252,11 @@
 				"x": 0.75,
 				"y": 0.75,
 				"z": 0.75
+			},
+			"wobsh1": {
+				"x": 1.15,
+				"y": 1.15,
+				"z": 1.15
 			},
 			"wraith": {
 				"x": 0.95,
@@ -1031,6 +1286,7 @@
 					"ac10": 0.7,
 					"ac20": 0.6,
 					"mg": 0.5,
+					"gauss": 0.3,
 					"ppc": 0.2,
 					"laser": 0.2,
 					"flamer": 0.2,
@@ -1051,6 +1307,7 @@
 					"uac5": 0.7,
 					"mg": 0.4,
 					"ppc": 0.3,
+					"gauss": 0.3,
 					"laser": 0.2,
 					"flamer": 0.2,
 					"ams": 0.1
@@ -1069,6 +1326,7 @@
 					"ac5": 0.7,
 					"lbx5": 0.7,
 					"mg": 0.3,
+					"gauss": 0.3,
 					"ppc": 0.2,
 					"laser": 0.2,
 					"flamer": 0.2,
@@ -1153,6 +1411,7 @@
 					"rac20": 0.6,
 					"ppc": 0.5,
 					"laser": 0.4,
+					"gauss": 0.3,
 					"mg": 0.3,
 					"flamer": 0.3,
 					"ams": 0.1
@@ -1179,6 +1438,7 @@
 					"ac20": 0.5,
 					"uac20": 0.5,
 					"rac20": 0.5,
+					"gauss": 0.3,
 					"ppc": 0.4,
 					"laser": 0.3,
 					"mg": 0.3,
@@ -1189,7 +1449,7 @@
 			{
 				"PrefabIdentifier": "UAC5",
 				"HardpointCandidates": {
-					"uac5": 0.8,
+					"uac5": 1.0,
 					"uac10": 0.8,
 					"uac2": 0.8,
 					"lbx5": 0.9,
@@ -1200,13 +1460,14 @@
 					"ac2": 0.7,
 					"lbx2": 0.7,
 					"rac5": 0.8,
-					"ac10": 1.0,
+					"ac10": 0.6,
 					"lbx10": 0.8,
 					"rac10": 0.8,
 					"uac20": 0.6,
 					"ac20": 0.6,
 					"lbx20": 0.6,
 					"rac20": 0.6,
+					"gauss": 0.3,
 					"ppc": 0.4,
 					"laser": 0.4,
 					"mg": 0.3,
@@ -1235,6 +1496,7 @@
 					"uac20": 0.4,
 					"ac20": 0.4,
 					"lbx20": 0.4,
+					"gauss": 0.3,
 					"ppc": 0.3,
 					"laser": 0.5,
 					"mg": 0.5,
@@ -1263,6 +1525,7 @@
 					"ac2": 0.4,
 					"uac2": 0.4,
 					"lbx2": 0.4,
+					"gauss": 0.3,
 					"ppc": 0.3,
 					"laser": 0.3,
 					"mg": 0.3,
@@ -1293,6 +1556,7 @@
 					"uac2": 0.6,
 					"ppc": 0.4,
 					"laser": 0.4,
+					"gauss": 0.3,
 					"mg": 0.3,
 					"flamer": 0.3,
 					"ams": 0.1
@@ -1321,6 +1585,7 @@
 					"lbx2": 0.7,
 					"ppc": 0.5,
 					"laser": 0.5,
+					"gauss": 0.3,
 					"mg": 0.3,
 					"flamer": 0.3,
 					"ams": 0.1
@@ -1349,6 +1614,7 @@
 					"lbx2": 0.8,
 					"ppc": 0.5,
 					"laser": 0.4,
+					"gauss": 0.3,
 					"mg": 0.3,
 					"flamer": 0.3,
 					"ams": 0.1
@@ -1386,6 +1652,7 @@
 					"ac5": 0.6,
 					"uac5": 0.6,
 					"lbx5": 0.6,
+					"gauss": 0.3,
 					"rac2": 0.3,
 					"ppc": 0.2,
 					"laser": 0.2,
@@ -1413,6 +1680,7 @@
 					"lbx5": 0.5,
 					"rac2": 0.4,
 					"ppc": 0.5,
+					"gauss": 0.3,
 					"laser": 0.3,
 					"mg": 0.2,
 					"flamer": 0.2,
@@ -1438,6 +1706,7 @@
 					"lbx5": 0.6,
 					"rac2": 0.3,
 					"ppc": 0.4,
+					"gauss": 0.3,
 					"laser": 0.3,
 					"mg": 0.2,
 					"flamer": 0.1,
@@ -1463,6 +1732,7 @@
 					"uac5": 0.7,
 					"lbx5": 0.7,
 					"ppc": 0.5,
+					"gauss": 0.3,
 					"laser": 0.3,
 					"mg": 0.2,
 					"flamer": 0.1,
@@ -1489,6 +1759,7 @@
 					"uac5": 0.6,
 					"ppc": 0.5,
 					"laser": 0.4,
+					"gauss": 0.3,
 					"mg": 0.3,
 					"flamer": 0.2,
 					"ams": 0.1
@@ -1515,6 +1786,27 @@
 				"HardpointCandidates": {
 					"gauss": 1.0,
 					"ac20": 0.8,
+					"ac10": 0.8,
+					"ac5": 0.7,
+					"ac2": 0.7,
+					"ac": 0.6,
+					"ppc": 0.8,
+					"lbx": 0.6,
+					"laser": 0.7,
+					"mg": 0.5,
+					"flamer": 0.3,
+					"ams": 0.1
+				}
+			},
+			{
+				"PrefabIdentifier": "railgun",
+				"HardpointCandidates": {
+					"railgun": 1.0,
+					"gauss": 0.9,
+					"ac20": 0.8,
+					"ac10": 0.8,
+					"ac5": 0.7,
+					"ac2": 0.7,
 					"ac": 0.6,
 					"ppc": 0.8,
 					"lbx": 0.6,
@@ -1529,8 +1821,11 @@
 				"HardpointCandidates": {
 					"artillery": 1.0,
 					"mortar": 0.95,
-					"ac20": 0.9,
-					"gauss": 0.8,
+					"ac20": 0.8,
+					"ac10": 0.8,
+					"ac5": 0.8,
+					"ac2": 0.8,
+					"gauss": 0.7,
 					"ac": 0.7,
 					"lbx": 0.7,
 					"ppc": 0.6,
@@ -1576,8 +1871,9 @@
 				"HardpointCandidates": {
 					"lrm5": 1.0,
 					"lrm10": 0.9,
-					"lrm15": 0.6,
+					"lrm15": 0.8,
 					"lrm20": 0.3,
+					"mortar": 0.7,
 					"srm20": 0.3,
 					"srm6": 0.9,
 					"srm4": 0.9,
@@ -1595,6 +1891,7 @@
 					"lrm10": 1.0,
 					"lrm15": 0.9,
 					"lrm20": 0.8,
+					"mortar": 0.7,
 					"srm20": 0.8,
 					"lrm5": 0.6,
 					"srm6": 0.8,
@@ -1614,6 +1911,8 @@
 					"lrm20": 0.9,
 					"srm20": 0.9,
 					"lrm10": 0.8,
+					"arrow": 0.75,
+					"mortar": 0.7,
 					"lrm5": 0.6,
 					"srm6": 0.65,
 					"srm4": 0.4,
@@ -1629,13 +1928,16 @@
 				"PrefabIdentifier": "arrow",
 				"HardpointCandidates": {
 					"arrow": 1.0,
-					"lrm5": 0.9,
+					"arrow4": 0.975,
+					"tbolt": 0.95,
+					"mortar": 0.925,
+					"lrm5": 0.875,
 					"lrm20": 0.7,
 					"srm20": 0.7,
 					"lrm15": 0.5,
 					"lrm10": 0.6,
-					"srm6": 0.9,
-					"srm4": 0.8,
+					"srm6": 0.8,
+					"srm4": 0.85,
 					"srm2": 0.5,
 					"ppc": 0.2,
 					"gauss": 0.1,
@@ -1651,8 +1953,10 @@
 				"HardpointCandidates": {
 					"lrm20": 1.0,
 					"srm20": 1.0,
+					"arrow": 0.95,
 					"lrm15": 0.9,
 					"lrm10": 0.8,
+					"mortar": 0.7,
 					"lrm5": 0.4,
 					"srm6": 0.45,
 					"srm4": 0.3,
@@ -1720,6 +2024,25 @@
 					"lrm5": 0.8,
 					"lrm10": 0.7,
 					"lrm15": 0.5,
+					"lrm20": 0.3,
+					"srm20": 0.3,
+					"machinegun": 0.1,
+					"mg": 0.1,
+					"flamer": 0.1,
+					"laser": 0.1,
+					"ams": 0.1
+				}
+			},
+			{
+				"PrefabIdentifier": "narc",
+				"HardpointCandidates": {
+					"narc": 1.0,
+					"srm2": 0.9,
+					"srm4": 0.8,
+					"srm6": 0.6,
+					"lrm5": 0.7,
+					"lrm10": 0.5,
+					"lrm15": 0.3,
 					"lrm20": 0.3,
 					"srm20": 0.3,
 					"machinegun": 0.1,

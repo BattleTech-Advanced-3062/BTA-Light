@@ -70,12 +70,32 @@
 			"v": "Debug"
 		},
 		{
+			"k": "BattletechPerformanceFix",
+			"v": "Log"
+		},
+		{
 			"k": "CustomShops",
 			"v": "Debug"
 		},
 		{
 			"k": "DynamicShops",
 			"v": "Debug"
+		},
+		{
+			"k": "LewdableTanks",
+			"v": "Debug"
+		},
+		{
+			"k": "CustomSalvage",
+			"v": "Debug"
+		},
+		{
+			"k": "CustomComponents",
+			"v": "Log"
+		},
+		{
+			"k": "MechEngineer",
+			"v": "Log"
 		}
 	],
 	"fileLogAppenders": [
@@ -109,7 +129,7 @@
 		},
 		{
 			"k": "win_systemMemorySize",
-			"v": 7999
+			"v": 15999
 		},
 		{
 			"k": "mac_graphicsMemSize",
@@ -157,7 +177,7 @@
 		},
 		{
 			"k": "lnx_systemMemorySize",
-			"v": 7999
+			"v": 15999
 		}
 	],
 	"aiLogCacheWriteImmediate": false,
