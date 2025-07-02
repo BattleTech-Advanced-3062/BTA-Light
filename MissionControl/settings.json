@@ -148,7 +148,7 @@
 			},
 			{
 				"MapId": "mapGeneral_lostWorld_vJung",
-				"IncreaseBoundarySizeByPercentage": 0.6
+				"IncreaseBoundarySizeByPercentage": 0.8
 			},
 			{
 				"MapId": "mapGeneral_Interchange_aDes",
@@ -175,7 +175,7 @@
 			},
 			{
 				"MapId": "mapGeneral_splitRange_iGlc",
-				"IncreaseBoundarySizeByPercentage": 0.5
+				"IncreaseBoundarySizeByPercentage": 0.6
 			},
 			{
 				"MapId": "mapGeneral_centralPond_uTech",
@@ -187,14 +187,13 @@
 				"IncreaseBoundarySizeByPercentage": 0.4
 			},
 			{
+				"MapId": "mapGeneral_gridLock_uTech",
+				"IncreaseBoundarySizeByPercentage": 0.4
+			},
+			{
 				"MapId": "mapGeneral_cragMire_vLow",
 				"ContractTypeName": "DefendBase",
 				"IncreaseBoundarySizeByPercentage": 0.3
-			},
-			{
-				"MapId": "mapGeneral_capitolHill_uTech",
-				"ContractTypeName": "ThreeWayBattle",
-				"IncreaseBoundarySizeByPercentage": 0.2
 			},
 			{
 				"MapId": "mapGeneral_borealForest_iGlc",
@@ -208,12 +207,11 @@
 			{
 				"MapId": "mapGeneral_riftValley_vJung",
 				"ContractTypeName": "AmbushConvoy",
-				"IncreaseBoundarySizeByPercentage": 0.4
+				"IncreaseBoundarySizeByPercentage": 0.6
 			},
 			{
 				"MapId": "mapMultiPurp_metroGreen_uTech",
-				"ContractTypeName": "CaptureBase",
-				"IncreaseBoundarySizeByPercentage": 0.2
+				"IncreaseBoundarySizeByPercentage": 0.3
 			},
 			{
 				"MapId": "mapGeneral_lushIsthmus_vJung",
@@ -248,11 +246,39 @@
 			},
 			{
 				"MapId": "mapGeneral_bigCrater_bMoon",
+				"IncreaseBoundarySizeByPercentage": 0.6
+			},
+			{
+				"MapId": "mapArena_deathValley_aDes",
 				"IncreaseBoundarySizeByPercentage": 0.4
+			},
+			{
+				"MapId": "mapGeneral_highPlateaus_aDes",
+				"IncreaseBoundarySizeByPercentage": 0.5
 			},
 			{
 				"ContractTypeName": "AmbushConvoy",
 				"IncreaseBoundarySizeByPercentage": 0.2
+			},
+			{
+				"MapId": "mapGeneral_capitolHill_uTech",
+				"IncreaseBoundarySizeByPercentage": 0.4
+			},
+			{
+				"MapId": "mapGeneral_escarpmentValley_vLow",
+				"IncreaseBoundarySizeByPercentage": 0.5
+			},
+			{
+				"MapId": "mapGeneral_theMound_vHigh",
+				"IncreaseBoundarySizeByPercentage": 0.5
+			},
+			{
+				"MapId": "mapGeneral_powerStructure_uTech",
+				"IncreaseBoundarySizeByPercentage": 0.5
+			},
+			{
+				"MapId": "mapGeneral_paupersCanyon_aWst",
+				"IncreaseBoundarySizeByPercentage": 0.5
 			}
 		]
 	},
