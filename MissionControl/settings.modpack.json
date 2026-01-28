@@ -27,7 +27,11 @@
 			"Itrom_Defense",
 			"Tyrlon_Attack",
 			"AmbushConvoy",
-			"AttackDefend"
+			"AttackDefend",
+			"BattleRoyaleV2",
+			"OrganizedRetreat",
+			"DefenceInDepth",
+			"WarzoneV2"
 		]
 	},
 	"HotDropProtection": {
@@ -62,7 +66,11 @@
 			"Itrom_Defense",
 			"Tyrlon_Attack",
 			"AmbushConvoy",
-			"AttackDefend"
+			"AttackDefend",
+			"BattleRoyaleV2",
+			"DefenceInDepth",
+			"WarzoneV2",
+			"OrganizedRetreat"
 		],
 		"ExcludeFromAutocomplete": [
 			"DefendBase",
@@ -72,7 +80,8 @@
 			"Assassinate",
 			"CaptureEscort",
 			"Rescue",
-			"AttackDefend"
+			"AttackDefend",
+			"OrganizedRetreat"
 		],
 		"UseElites": false
 	},
@@ -119,6 +128,34 @@
 				},
 				{
 					"Faction": "CSRDeltaGalaxy",
+					"DifficultyMod": -1
+				},
+				{
+					"Faction": "ClanGoliathScorpion",
+					"DifficultyMod": -1
+				},
+				{
+					"Faction": "CGSOmegaGalaxy",
+					"DifficultyMod": -1
+				},
+				{
+					"Faction": "ScorpionEmpire",
+					"DifficultyMod": -1
+				},
+				{
+					"Faction": "ClanFireMandrill",
+					"DifficultyMod": -1
+				},
+				{
+					"Faction": "KindraaSainze",
+					"DifficultyMod": -1
+				},
+				{
+					"Faction": "KindraaFaradayTanaga",
+					"DifficultyMod": -1
+				},
+				{
+					"Faction": "KindraaMickKreese",
 					"DifficultyMod": -1
 				},
 				{
@@ -205,7 +242,8 @@
 			"Panzyr_Defense",
 			"Itrom_Attack",
 			"Itrom_Defense",
-			"Tyrlon_Attack"
+			"Tyrlon_Attack",
+			"BattleRoyaleV2"
 		]
 	},
 	"IncreaseBoundarySizeByPercentage": 0.7,

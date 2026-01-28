@@ -14,7 +14,11 @@
 		"EnableForStory": false,
 		"ExcludeContractTypes": [
 			"SoloDuel",
-			"DuoDuel"
+			"DuoDuel",
+			"BattleRoyaleV2",
+			"OrganizedRetreat",
+			"DefenceInDepth",
+			"WarzoneV2"
 		]
 	},
 	"HotDropProtection": {
@@ -23,7 +27,8 @@
 		"EnableForStory": false,
 		"ExcludeContractTypes": [
 			"SoloDuel",
-			"DuoDuel"
+			"DuoDuel",
+			"BattleRoyaleV2"
 		],
 		"GuardOnHotDrop": false,
 		"EvasionPipsOnHotDrop": 6,
@@ -37,7 +42,8 @@
 		"EnableForStory": false,
 		"ExcludeContractTypes": [
 			"SoloDuel",
-			"DuoDuel"
+			"DuoDuel",
+			"BattleRoyaleV2"
 		],
 		"IsPrimaryObjectiveIn": [
 			"SimpleBattle",
@@ -45,7 +51,8 @@
 		],
 		"ExcludeFromAutocomplete": [
 			"DefendBase",
-			"FireMission"
+			"FireMission",
+			"OrganizedRetreat"
 		],
 		"HideObjective": true,
 		"ShowObjectiveOnLanceDetected": true,
@@ -85,9 +92,23 @@
 		"AutofillType": "RespectEmpty",
 		"AutofillUnitCopyType": "RandomInLance",
 		"AutofillStartingFromContractDifficulty": 3,
-		"ExcludeContractTypes": [
-			"SoloDuel",
-			"DuoDuel"
+		"IncludeContractTypes": [
+			"AmbushConvoy",
+			"Assassinate",
+			"CaptureBase",
+			"CaptureEscort",
+			"DefendBase",
+			"DestroyBase",
+			"Rescue",
+			"SimpleBattle",
+			"ThreeWayBattle",
+			"FireMission",
+			"AttackDefend",
+			"Blackout",
+			"Warzone",
+			"OrganizedRetreat",
+			"DefenceInDepth",
+			"WarzoneV2"
 		],
 		"SkipWhenTaggedWithAny": [
 			"lance_type_solo"
@@ -110,7 +131,8 @@
 		"EnableForStory": false,
 		"ExcludeContractTypes": [
 			"SoloDuel",
-			"DuoDuel"
+			"DuoDuel",
+			"BattleRoyaleV2"
 		],
 		"IncreaseBoundarySizeByPercentage": 0.3,
 		"Overrides": [
@@ -207,7 +229,7 @@
 			{
 				"MapId": "mapGeneral_riftValley_vJung",
 				"ContractTypeName": "AmbushConvoy",
-				"IncreaseBoundarySizeByPercentage": 0.6
+				"IncreaseBoundarySizeByPercentage": 0.7
 			},
 			{
 				"MapId": "mapMultiPurp_metroGreen_uTech",
@@ -262,7 +284,7 @@
 			},
 			{
 				"MapId": "mapGeneral_capitolHill_uTech",
-				"IncreaseBoundarySizeByPercentage": 0.4
+				"IncreaseBoundarySizeByPercentage": 0.6
 			},
 			{
 				"MapId": "mapGeneral_escarpmentValley_vLow",
@@ -274,10 +296,18 @@
 			},
 			{
 				"MapId": "mapGeneral_powerStructure_uTech",
-				"IncreaseBoundarySizeByPercentage": 0.5
+				"IncreaseBoundarySizeByPercentage": 0.75
 			},
 			{
 				"MapId": "mapGeneral_paupersCanyon_aWst",
+				"IncreaseBoundarySizeByPercentage": 0.5
+			},
+			{
+				"MapId": "mapGeneral_crimsonValley_bMars",
+				"IncreaseBoundarySizeByPercentage": 0.5
+			},
+			{
+				"MapId": "mapGeneral_terracePlaza_uTech",
 				"IncreaseBoundarySizeByPercentage": 0.5
 			}
 		]
@@ -288,7 +318,8 @@
 		"EnableForStory": false,
 		"ExcludeContractTypes": [
 			"SoloDuel",
-			"DuoDuel"
+			"DuoDuel",
+			"BattleRoyaleV2"
 		],
 		"MinDistanceForZone": 50,
 		"MaxDistanceForZone": 175,
