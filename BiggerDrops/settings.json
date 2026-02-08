@@ -17,13 +17,13 @@
 	"CuInitialVehicles": 2,
 	"CuV2FormationSize": 8,
 	"CuV2InitialSlots": [
+		"default_omni_slot",
+		"default_omni_slot",
+		"default_omni_slot",
+		"default_omni_slot",
 		"default_mech_tank_slot",
 		"default_mech_tank_slot",
 		"default_mech_tank_slot",
-		"default_mech_tank_slot",
-		"default_tank_mech_slot",
-		"default_tank_mech_slot",
-		"default_vehicle_slot",
-		"default_vehicle_slot"
+		"default_mech_tank_slot"
 	]
 }
